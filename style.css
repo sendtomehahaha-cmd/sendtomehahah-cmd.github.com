@@ -1,0 +1,51 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    color: #000000;
+    padding: 0px;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    max-height: 10px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+/* Content section */
+.content {
+    text-align: left;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: .1;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Gallery */ 
+.gallery {
+    display: block;
+    width: 100%;
+    padding: 0px; /* Padding around the entire gallery container */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+
+}
+
+#new-gallery {
+    display: none;  /* Hide by default */
+
+
+    
+}
